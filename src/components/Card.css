@@ -1,1 +1,53 @@
-/*# sourceMappingURL=Card.css.map */
+#root {
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 400px;
+  margin-top: 40px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #3a3c3b;
+  color: whitesmoke;
+}
+.card-container h1 {
+  font-family: "Diphylleia", serif;
+}
+.card-container .ratings {
+  display: flex;
+  gap: 5px;
+}
+.card-container .ratings p {
+  margin-left: 15px;
+}
+
+.secondary-container-text {
+  font-family: "Diphylleia", serif;
+}
+.secondary-container-border {
+  border-bottom: 2px dotted black;
+}
+.secondary-container p {
+  line-height: 27px;
+}
+
+.container-subtitles-text {
+  font-family: "Diphylleia", serif;
+}
+.container-subtitles-items {
+  display: flex;
+  justify-content: space-around;
+}
+.container-subtitles-items p {
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.container-subtitles-items p:hover {
+  background-color: azure;
+  color: #3a3c3b;
+}/*# sourceMappingURL=Card.css.map */

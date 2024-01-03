@@ -1,0 +1,70 @@
+$title-font: 'Diphylleia', serif;
+$font-color: whitesmoke;
+
+#root {
+    height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+    margin-top: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #3a3c3b;
+    color: $font-color;
+    
+
+    h1 {
+        font-family: $title-font;
+    }
+
+    .ratings {
+        display: flex;
+        gap: 5px;
+
+        p {
+            margin-left: 15px;
+        }
+    }
+}
+
+.secondary-container {
+    &-text {
+        font-family: $title-font;
+    }
+
+    &-border {
+        border-bottom: 2px dotted black;
+    }
+
+    p {
+                    line-height: 27px;
+    }
+}
+
+.container-subtitles {
+    &-text {
+        font-family: $title-font;
+    }
+
+    &-items {
+        display: flex;
+        justify-content: space-around;
+
+        p {
+            border: 2px solid black;
+            padding: 5px 10px;
+            border-radius: 50px;
+
+            &:hover {
+                background-color: azure;
+                color: #3a3c3b;
+        }
+        }
+
+    }
+}
